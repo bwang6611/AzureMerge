@@ -1,0 +1,19 @@
+.languageText {
+    font-size: 17px;
+    position: absolute;
+    margin-top: -19%;
+    margin-left: 2.5%;
+}
+
+.languageSelect { 
+    position: absolute;
+    margin-top: -18%;
+}
+
+#languageOptions {
+    border-radius: 15%;
+    margin-left: 250%;
+    height: 51px;
+    width: 108px;
+    border-color: black;
+}

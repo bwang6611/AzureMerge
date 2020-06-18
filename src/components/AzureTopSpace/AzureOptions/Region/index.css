@@ -1,0 +1,104 @@
+#dd-header_title {
+/*
+  height: 8vh;
+  width: 10vw;
+  color: white;
+  top: 0;
+  font-family: 'Arial'; font-size: 2.5vh;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 15%;
+  background: #000000;
+  background: -moz-linear-gradient(left, #000000 0%, #0B0B0B 55%, #181818 100%);
+  background: -webkit-linear-gradient(left, #000000 0%, #0B0B0B 55%, #181818 100%);
+  background: linear-gradient(to right, #000000 0%, #0B0B0B 55%, #181818 100%);
+  cursor: pointer;
+*/ 
+    background: black;
+/*
+    color: white;
+    font-family: 'Arial';
+*/
+    height: 53px;
+    width: 63px;
+    cursor: pointer;
+    vertical-align: middle;
+    font-size: 30px;
+    margin-left: 70.5%;
+    border-radius: 15%;
+    margin-top: 6%;
+}
+
+#regionText {
+    position: absolute;
+    font-family: 'Arial';
+    margin-left: 2%;
+    margin-top: -1%;
+    font-size: 17px;    
+}
+
+
+
+
+#dd-button {
+  display: flex;
+  justify-content: space-between;
+/*
+  background: #000000;
+  background: -moz-linear-gradient(left, #000000 0%, #0B0B0B 55%, #181818 100%);
+  background: -webkit-linear-gradient(left, #000000 0%, #0B0B0B 55%, #181818 100%);
+  background: linear-gradient(to right, #000000 0%, #0B0B0B 55%, #181818 100%);
+*/
+  background: white;
+  font-size: 20px;
+  color: white;
+  padding: 15px 20px 15px 30px;
+  border: 0;
+  border-bottom: 1px solid black;
+  width: 100%;
+  text-align: left;
+  border-left: 1px solid black;
+  border-right: 1px solid black; 
+  font-family: 'Arial';
+  text-decoration-color: black;
+  &:hover, &:focus {
+    cursor: pointer;
+    font-weight: bold;
+    background-color: blue;
+  }
+}
+#dd-wrapper {
+  text-align: left;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+
+dd-header_title:hover {
+  border-color: #33FF33;
+}
+dd-list {
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075) !important;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  margin-top: 20px;
+  text-decoration-color: black;
+  li {
+    list-style-type: none;
+
+    &:first-of-type {
+      > button {
+        border-top: 1px solid #ccc;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+      }
+    }
+
+    &:last-of-type > button {
+      border-bottom-left-radius: 4px;
+      border-bottom-right-radius: 4px;
+    }
+  }
+}
+

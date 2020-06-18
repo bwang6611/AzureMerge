@@ -1,0 +1,15 @@
+.transLanguageText {
+    position: absolute;
+    font-size: 17px;
+    margin-left: 2.5%;
+    margin-top: 2%;
+}
+
+#targetlanguageoptions {
+    border-radius: 15%;
+    margin-left: 70%;
+    height: 51px;
+    width: 108px;
+    margin-top: 3%;
+    border-color: black;
+}
